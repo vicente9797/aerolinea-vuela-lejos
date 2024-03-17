@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoteles - Vuela Lejos</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Estilos personalizados -->
+  <style>
+    body {
+      background-color: #ffffff; /* Color de fondo secundario */
+    }
+    .jumbotron {
+      background-color: #1b0088; /* Color de fondo primario */
+      color: #ffffff; /* Color de texto */
+      padding: 80px 30px; /* Aumentamos el espaciado dentro del jumbotron */
+      border-radius: 20px; /* Borde redondeado */
+    }
+    .hotel-card {
+      margin-bottom: 30px;
+    }
+    .hotel-card img {
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+    }
+    .hotel-card .card-body {
+      background-color: #f8f9fa; /* Color de fondo del cuerpo de la tarjeta */
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+    .hotel-card .btn {
+      background-color: #1b0088; /* Color de fondo del botón */
+      border-color: #1b0088; /* Color del borde del botón */
+      transition: all 0.3s ease; /* Transición suave al pasar el cursor */
+    }
+    .hotel-card .btn:hover {
+      background-color: #2a0ebe; /* Color de fondo del botón al pasar el cursor */
+      border-color: #2a0ebe; /* Color del borde del botón al pasar el cursor */
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="background-color: #1b0088 !important;">
+    <a class="navbar-brand" href="#">Vuela Lejos</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="destinos.html">Destinos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="hoteles.html">Hoteles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="centro-ayuda.html">Centro de Ayuda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Contenido de la página de Hoteles -->
+  <div class="container mt-4">
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Explora nuestros hoteles asociados</h1>
+        <p class="lead">Encuentra tu lugar de descanso perfecto en nuestros hoteles seleccionados.</p>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card hotel-card">
+                <img src="img/hoteldos.jpeg" class="card-img-top img-fluid" alt="Hotel 1">
+                <div class="card-body">
+                    <h5 class="card-title">Hotel del Mar</h5>
+                    <p class="card-text">Disfruta de una estancia de lujo frente al mar en el Hotel del Mar.</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card hotel-card">
+                <img src="img/hoteluno.jpeg" class="card-img-top img-fluid" alt="Hotel 2">
+                <div class="card-body">
+                    <h5 class="card-title">Gran Vista Hotel</h5>
+                    <p class="card-text">Descansa y relájate con vistas panorámicas en el Gran Vista Hotel.</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card hotel-card">
+                <img src="img/hoteltres.jpeg" class="card-img-top img-fluid" alt="Hotel 3">
+                <div class="card-body">
+                    <h5 class="card-title">Hotel Oasis</h5>
+                    <p class="card-text">Experimenta una escapada rejuvenecedora en el Hotel Oasis.</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-4 justify-content-center">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body text-center">
+              <h5 class="card-title">¿Tienes dudas?</h5>
+              <p class="card-text">Revisa nuestras preguntas frecuentes aqui!</p>
+              <a href="centro-ayuda.html" class="btn btn-primary">Centro de Ayuda</a>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+
+  <footer class="footer mt-5 bg-primary text-white text-center py-3">
+    <div class="container">
+      <span>© 2024 Vuela Lejos. Todos los derechos reservados.</span>
+    </div>
+  </footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script

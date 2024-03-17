@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Destinos - Vuela Lejos</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Estilos personalizados -->
+  <style>
+    body {
+      background-color: #ffffff; /* Color de fondo secundario */
+    }
+    .jumbotron {
+      background-color: #1b0088; /* Color de fondo primario */
+      color: #ffffff; /* Color de texto */
+      padding: 80px 30px; /* Aumentamos el espaciado dentro del jumbotron */
+      border-radius: 20px; /* Borde redondeado */
+    }
+    .destino-card {
+      margin-bottom: 30px;
+    }
+    .destino-card img {
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+    }
+    .destino-card .card-body {
+      background-color: #f8f9fa; /* Color de fondo del cuerpo de la tarjeta */
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+    .destino-card .btn {
+      background-color: #1b0088; /* Color de fondo del botón */
+      border-color: #1b0088; /* Color del borde del botón */
+      transition: all 0.3s ease; /* Transición suave al pasar el cursor */
+    }
+    .destino-card .btn:hover {
+      background-color: #2a0ebe; /* Color de fondo del botón al pasar el cursor */
+      border-color: #2a0ebe; /* Color del borde del botón al pasar el cursor */
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="background-color: #1b0088 !important;">
+    <a class="navbar-brand" href="#">Vuela Lejos</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="destinos.html">Destinos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="hoteles.html">Hoteles</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="centro-ayuda.html">Centro de Ayuda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Contenido de la página de Destinos -->
+  <div class="container mt-4">
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Descubre nuestros destinos</h1>
+        <p class="lead">Explora los destinos más emocionantes y exóticos con Vuela Lejos.</p>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card destino-card">
+                <img src="img/ciudadSol.jpeg" class="card-img-top img-fluid" alt="Destino 1">
+                <div class="card-body">
+                    <h5 class="card-title">Ciudad del Sol</h5>
+                    <p class="card-text">Disfruta del clima cálido y las playas doradas de Ciudad del Sol.</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card destino-card">
+                <img src="img/montanasAzules.jpeg" class="card-img-top img-fluid" alt="Destino 2">
+                <div class="card-body">
+                    <h5 class="card-title">Montañas Azules</h5>
+                    <p class="card-text">Embárcate en una aventura en las majestuosas Montañas Azules.</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card destino-card">
+                <img src="img/islasEsmeralda.jpeg" class="card-img-top img-fluid" alt="Destino 3">
+                <div class="card-body">
+                    <h5 class="card-title">Islas Esmeralda</h5>
+                    <p class="card-text">Descubre la belleza natural de las Islas Esmeralda y sus aguas cristalinas.</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-4 justify-content-center">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body text-center">
+              <h5 class="card-title">¡Descubre nuestros hoteles asociados!</h5>
+              <p class="card-text">Encuentra el alojamiento perfecto para tu próximo viaje.</p>
+              <a href="hoteles.html" class="btn btn-primary">Ver Hoteles</a>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+
+<footer class="footer mt-5 bg-primary text-white text-center py-3">
+    <div class="container">
+      <span>© 2024 Vuela Lejos. Todos los derechos reservados.</span>
+    </div>
+  </footer>
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
